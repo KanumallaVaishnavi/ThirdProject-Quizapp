@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">quizapp</string>
+    <string name="quiz">START THE QUIZ</string>
+    <string name="questionOne">Who wrote the famous book - \'We the people\'?</string>
+    <string name="qOneOptionOne">J.R.D Tata</string>
+    <string name="qOneOptionTwo">Khushwant Singh</string>
+    <string name="qOneOptionThree">Nani Palkhivala</string>
+    <string name="questionTwo">Who is/are author(s) of the book \'The Enchanted Chocolate Pot\'?</string>
+    <string name="qTwoOptionOne">Patricia Wrede</string>
+    <string name="qTwoOptionTwo">George Orwell</string>
+    <string name="qTwoOptionThree">Caroline Stevermer</string>
+    <string name="questionThree">Who is the author of the book \'Forbidden Verses\'?</string>
+    <string name="questionThreeHint">Classical Arabic poet</string>
+    <string name="questionFour">The lead character in the film \'The Bandit Queen\' has been played by</string>
+    <string name="qFourOptionOne">Seema Biswas</string>
+    <string name="qFourOptionTwo">Pratiba Sinha</string>
+    <string name="qFourOptionThree">Shabama Azmi</string>
+    <string name="submit">Submit</string>
+    <string name="answerThree">Abu Nuwas</string>
+    <string name="quizz">Quiz</string>
+    <string name="questionFive">Which of the following books has been written by Vikram Seth?</string>
+    <string name="qFiveOptionOne">Islamic Bomb</string>
+    <string name="qFiveOptionTwo">A Suitable Boy</string>
+    <string name="qFiveOptionThree">Look Back in Anger</string>
+</resources>

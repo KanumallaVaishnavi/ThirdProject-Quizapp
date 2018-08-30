@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/book3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty"
+            android:background="@color/yellow"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/ten"
+            android:text="@string/quiz"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="@dimen/twenty"
+            android:textColor="@color/darkblue"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:background="@color/translucentblue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginLeft="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:text="@string/questionOne"
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/qOneOptionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qOneOptionOne"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qOneOptionTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qOneOptionTwo"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qOneOptionThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qOneOptionThree"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:background="@color/blue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:text="@string/questionTwo"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <CheckBox
+            android:id="@+id/qTwoOptionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:paddingEnd="@dimen/two"
+            android:paddingStart="@dimen/two"
+            android:text="@string/qTwoOptionOne"
+            android:onClick="onCheckboxClicked"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <CheckBox
+            android:id="@+id/qTwoOptionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:paddingEnd="@dimen/two"
+            android:paddingStart="@dimen/two"
+            android:text="@string/qTwoOptionTwo"
+            android:onClick="onCheckboxClicked"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <CheckBox
+            android:id="@+id/qTwoOptionThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fifteen"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:paddingEnd="@dimen/two"
+            android:paddingStart="@dimen/two"
+            android:text="@string/qTwoOptionThree"
+            android:onClick="onCheckboxClicked"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginTop="@dimen/fifteen"
+            android:background="@color/blue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:text="@string/questionThree"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <EditText
+            android:id="@+id/qThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen"
+            android:hint="@string/questionThreeHint"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:background="@color/blu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:text="@string/questionFour"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/qFourOptionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFourOptionOne"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qFourOptionTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFourOptionTwo"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qFourOptionThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFourOptionThree"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:background="@color/bl" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/fifteen"
+            android:layout_marginTop="@dimen/fifteen"
+            android:text="@string/questionFive"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fifteen"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/qFiveOptionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFiveOptionOne"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qFiveOptionTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFiveOptionTwo"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+            <RadioButton
+                android:id="@+id/qFiveOptionThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fifteen"
+                android:paddingEnd="@dimen/two"
+                android:paddingStart="@dimen/two"
+                android:text="@string/qFiveOptionThree"
+                android:onClick="onButtonClicked"
+                android:textSize="@dimen/sixteen"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="serif"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:background="@color/bl" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fifteen"
+            android:onClick="submitQuiz"
+            android:padding="@dimen/two"
+            android:text="@string/submit"
+            android:textSize="@dimen/sixteen"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+</ScrollView>
